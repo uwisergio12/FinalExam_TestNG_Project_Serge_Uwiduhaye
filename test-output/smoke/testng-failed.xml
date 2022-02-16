@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test thread-count="5" name="AllTests(failed)">
+    <parameter name="Category" value="Sergio"/>
+    <parameter name="mon3" value="Mar"/>
+    <parameter name="mon2" value="Feb"/>
+    <parameter name="mon1" value="Jan"/>
+    <parameter name="mon7" value="Jul"/>
+    <parameter name="mon11" value="Nov"/>
+    <parameter name="mon6" value="Jun"/>
+    <parameter name="mon12" value="Dec"/>
+    <parameter name="mon5" value="May"/>
+    <parameter name="mon4" value="Apr"/>
+    <parameter name="mon9" value="Sep"/>
+    <parameter name="mon8" value="Aug"/>
+    <parameter name="mon10" value="Oct"/>
+    <classes>
+      <class name="test.AllTests">
+        <methods>
+          <include name="validUserShouldBeAbleToAddCategory" invocation-numbers="0"/>
+          <include name="validUserShouldBeAbleToAddDuplicateCategory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AllTests -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [smoke] -->

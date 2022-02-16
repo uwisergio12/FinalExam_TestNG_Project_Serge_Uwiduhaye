@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="AllTests">
+		<parameter name="Category" value="Sergio"/>
+		<parameter name="mm1" value="Jan"/>
+		<parameter name="mm2" value="Feb"/>
+		<parameter name="mm3" value="Mar"/>
+		<parameter name="mm4" value="Apr"/>
+		<parameter name="mm5" value="May"/>
+		<parameter name="mm6" value="Jun"/>
+		<parameter name="mm7" value="Jul"/>
+		<parameter name="mm8" value="Aug"/>
+		<parameter name="mm9" value="Sep"/>
+		<parameter name="mm10" value="Oct"/>
+		<parameter name="mm11" value="Nov"/>
+		<parameter name="mm12" value="Dec"/>
+		
+		<classes>
+			<class name="test.AllTests"></class>
+		</classes>
+
+	</test>
+
+</suite>
